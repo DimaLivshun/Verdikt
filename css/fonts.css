@@ -1,0 +1,28 @@
+/* font-family: "MontserratRegular"; */
+@font-face {
+	font-family: "MontserratRegular";
+	src: 
+	url("../fonts/MontserratRegular/MontserratRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "MontserratBold"; */
+@font-face {
+	font-family: "MontserratBold";
+	src: url("../fonts/MontserratBold/MontserratBold.eot");
+	src: url("../fonts/MontserratBold/MontserratBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MontserratBold/MontserratBold.woff") format("woff")
+	url("../fonts/MontserratBold/MontserratBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "PlayfairDisplayItalic"; */
+@font-face {
+	font-family: "PlayfairDisplayItalic";
+	src: url("../fonts/PlayfairDisplayItalic/PlayfairDisplayItalic.eot");
+	src: url("../fonts/PlayfairDisplayItalic/PlayfairDisplayItalic.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/PlayfairDisplayItalic/PlayfairDisplayItalic.woff") format("woff"),
+	url("../fonts/PlayfairDisplayItalic/PlayfairDisplayItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
