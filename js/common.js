@@ -40,6 +40,23 @@ $(document).ready(function() {
 	        $(tab).fadeIn(400);
 	    });
 	});
+	$(document).ready(function(){
+	    $('.tabs_menu-two a').click(function(e) {
+	        e.preventDefault();
+	        $('.tabs_menu-two .active').removeClass('active');
+	        $(this).addClass('active');
+	        var tab = $(this).attr('href');
+	        $('.tab-2').not(tab).css({'display':'none'});
+	        $(tab).fadeIn(400);
+	    });
+	});
+	$('article').readmore({
+		speed: 250,
+		maxHeight: 30,
+		heightMargin: 10,
+		moreLink: '<a href="#">Read more...</a>' ,
+		lessLink: '<a href="#">Close</a>'
+	});
 
 
 	//Прогресс бар

@@ -99,7 +99,7 @@ body {
 	margin-top:10px;
 }
 .top-content .container{
-	padding: 0px 14px 0px 0px;
+	padding: 0;
 }
 .container{
 	padding: 0;
@@ -389,7 +389,7 @@ body {
 }
 
 .opinion .tabs_box {
-    max-width: 356px;
+    max-width: 381px;
     background: #fff;
     position: relative;
     margin-left: -178px;
@@ -444,14 +444,14 @@ body {
 	margin-right: 5px;
 }
 .opinion .tabs_box .first-opinion .info-opinion img {
-	margin-right: 5px;
+	margin-right: 8px;
 }
 .opinion .tabs_box .first-opinion .info-opinion p {
 	font-size: 8.95px;
 	font-family: "MontserratRegular";
 	color:#585858;
 	display:inline-block;
-	padding-left:6px;
+	padding-left:9px;
 }
 .opinion .info-opinion h5 {
 	font-size: 10.74px;
@@ -512,14 +512,14 @@ body {
 	margin-right: 5px;
 }
 .opinion .tabs_box .second-opinion .info-opinion img {
-	margin-right: 5px;
+	margin-right: 8px;
 }
 .opinion .tabs_box .second-opinion .info-opinion p {
 	font-size: 8.95px;
 	font-family: "MontserratRegular";
 	color:#585858;
 	display:inline-block;
-	padding-left:6px;
+	padding-left:9px;
 }
 .opinion .tabs_box .second-opinion p {
 	font-size: 18px;
@@ -544,14 +544,14 @@ body {
 	margin-right: 5px;
 }
 .opinion .tabs_box .third-opinion .info-opinion img {
-	margin-right: 5px;
+	margin-right: 8px;
 }
 .opinion .tabs_box .third-opinion .info-opinion p {
 	font-size: 8.95px;
 	font-family: "MontserratRegular";
 	color:#585858;
 	display:inline-block;
-	padding-left:6px;
+	padding-left:9px;
 }
 .opinion .tabs_box .third-opinion p {
 	font-size: 18px;
@@ -575,6 +575,172 @@ body {
 	padding: 0;
 	margin-top: 25px;
 	float:left;
-	max-width: 356px;
+	max-width: 380px;
 	margin-left: 20px;
+}
+.social-icon{
+	margin-top: 15px;
+}
+.pre-footer{
+	margin-top:40px;
+}
+.pre-footer .resent-verdikt{
+	padding: 0;
+}
+.pre-footer .tabs_box-two {
+    background: #fff;
+    position: relative;
+    border-top: 2px solid #e5e5e5;
+    padding-top: 8px;
+}
+.pre-footer .tabs_box-two #left {
+    float:left;
+}
+.pre-footer .tabs_box-two #right {
+    float:right;
+    margin-right: -675px;
+}
+
+.tabs_box-two{
+	max-width: 800px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+}
+#tab2-2{
+    display: none;
+}
+.tabs_menu-two {
+    display: table-row;
+}
+ 
+.tabs_menu-two li {
+    display: table-cell;
+    width: auto;
+}
+ 
+.tabs_menu-two li a {
+    width: 2000px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #e5e5e5;
+    color: #919191;
+    border: 2px solid #e5e5e5;
+    padding: 10px 15px;
+    margin:0;
+}
+ 
+.tabs_menu-two li:first-child a {
+    border-left: 2px solid #e5e5e5;
+}
+ 
+.tabs_menu-two .active {
+    background: #fff;
+    color: #a3a3a3;
+}
+.pre-footer .resent-verdikt {
+	margin-top: 40px;
+}
+.pre-footer .resent-verdikt p{
+	font-family: "MontserratRegular";
+	font-size: 25px;
+	font-weight: bold;
+	color:#000;
+	margin-top: 10px;
+}
+.pre-footer .resent-verdikt .info-resent p{
+	font-size:12px;
+	font-family: "MontserratRegular";
+	color:#585858;
+	display:inline-block;
+	padding-right:17px;
+	padding-left:7px; 
+}
+.pre-footer .resent-verdikt .info-resent h5{
+	font-size:12px;
+	font-family: "MontserratRegular";
+	color:#585858;
+	display:inline;
+	font-weight: bold;
+}
+.pre-footer .resent-verdikt .info-resent img{
+	margin-right: 10px;
+}
+.pre-footer .resent-verdikt .prefooter-information{
+	color: #b8b1ab;
+    font-size: 13px;
+    font-family: "MontserratRegular";
+    text-align: left;
+    margin-bottom: 15px;
+    display: block;
+    margin-top: 10px;
+}
+.pre-footer .by {
+    color: #abe3fb;
+    font-family: "MontserratRegular";
+    font-size: 14px;
+}
+.pre-footer .by p{
+	color: #d2d2d2;
+    font-style: italic;
+    font-family: "MontserratBold";
+    font-size: 14px;
+    display: inline;
+    margin-right: 5px;
+}
+.pre-footer .footer-opinion .by{
+	color: #abe3fb;
+    font-family: "MontserratRegular";
+    font-size: 14px;
+    margin-left: 4px;
+}
+.pre-footer .footer-opinion{
+	float: left;
+    margin-left: 11px;
+}
+.pre-footer .resent-verdikt{
+    width:100%;
+
+    
+}
+.pre-footer .resent-verdikt .prefooter-opinion img{
+    text-align: left;
+    
+}
+.pre-footer .resent-verdikt .footer-opinion .f-opinion-info {
+	margin-left: 50px;
+	display:inline-block; 
+}
+.pre-footer .resent-verdikt .f-opinion-info p{
+	font-size:12px;
+	font-family: "MontserratRegular";
+	color:#585858;
+	display:inline-block;
+	padding-right:6px;
+	padding-left:7px; 
+}
+.pre-footer .resent-verdikt .f-opinion-info h5{
+	font-size:12px;
+	font-family: "MontserratRegular";
+	color:#585858;
+	display:inline;
+	font-weight: bold;
+}
+.pre-footer .resent-verdikt .f-opinion-info img{
+	margin-right: 10px;
+}
+.pre-footer .resent-verdikt .prefooter-opinion{
+	color: #000;
+    font-size: 12px;
+    font-family: "PlayfairDisplayItalic";
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    display: block;
+    margin-top: -2px;
+}
+.pre-footer .resent-verdikt .footer-info {
+	max-width: 422px;
+	margin-top: 20px;
+	float:left;
 }

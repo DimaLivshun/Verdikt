@@ -13,8 +13,8 @@ SOCIAL LINK a.sb
 *************************************************************************************/
 a.sb,
 .sb a {
-	width: 32px;
-	height: 32px;
+	width: 44px;
+	height: 44px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	text-indent: -900em;
@@ -25,7 +25,8 @@ a.sb,
 	display: inline-block;
 	position: relative;
 	vertical-align: middle;
-	margin: 0 2px 5px 0;
+	margin: 0 8px 15px 0;
+	transition: .3s;
 	
 	/* default button color */
 	background-color: #f7f7f7;
@@ -260,7 +261,8 @@ a.sb:hover,
 .sb a:hover,
 a.sb:hover:after,
 .sb a:hover:after {
-	background-color: #f3f3f3;
+	background-color: #647fbe;
+
 }
 
 
@@ -702,10 +704,18 @@ a.sb.twitter,
 .sb a.twitter {
 	background-image: url(../img/twitter_bird.png);
 }
+a.sb.twitter:hover,
+.sb a.twitter:hover {
+	background-image: url(../img/twitter_birdw.png);
+}
 
 a.sb.facebook,
 .sb a.facebook {
 	background-image: url(../img/facebook.png);
+}
+a.sb.facebook:hover,
+.sb a.facebook:hover {
+	background-image: url(../img/facebookw.png);
 }
 
 a.sb.heart,
@@ -717,12 +727,19 @@ a.sb.linkedin,
 .sb a.linkedin {
 	background-image: url(../img/linkedin.png);
 }
+a.sb.linkedin:hover,
+.sb a.linkedin:hover {
+	background-image: url(../img/linkedinw.png);
+}
 
 a.sb.pinterest,
 .sb a.pinterest {
 	background-image: url(../img/pinterest.png);
 }
-
+a.sb.pinterest:hover,
+.sb a.pinterest:hover {
+	background-image: url(../img/pinterestw.png);
+}
 a.sb.podcast,
 .sb a.podcast {
 	background-image: url(../img/podcast.png);
@@ -737,6 +754,11 @@ a.sb.share_this,
 .sb a.share_this {
 	background-image: url(../img/share_this.png);
 }
+a.sb.share_this:hover,
+.sb a.share_this:hover {
+	background-image: url(../img/share_thisw.png);
+}
+
 
 a.sb.star,
 .sb a.star {
@@ -746,12 +768,21 @@ a.sb.star,
 a.sb.vimeo,
 .sb a.vimeo {
 	background-image: url(../img/vimeo.png);
+	margin-right: 0;
+}
+a.sb.vimeo:hover,
+.sb a.vimeo:hover {
+	background-image: url(../img/vimeow.png);
+	margin-right: 0;
 }
 a.sb.tumblr,
 .sb a.tumblr {
     background-image: url(../img/tumblr.png);
 }
-
+a.sb.tumblr:hover,
+.sb a.tumblr:hover {
+    background-image: url(../img/tumblrw.png);
+}
 /* white icons */
 a.sb.blue.twitter,
 .sb.blue a.twitter,
@@ -869,6 +900,10 @@ a.sb.gray.podcast,
 a.sb.blogger, .sb a.blogger {
     background-image: url(../img/blogger.png);
 }
+a.sb.blogger:hover, 
+.sb a.blogger:hover {
+    background-image: url(../img/bloggerw.png);
+}
 
 a.sb.blue.rss,
 .sb.blue a.rss,
@@ -970,11 +1005,40 @@ a.sb.gray.vimeo,
 a.sb.youtube {
 	background-image: url(../img/youtube.png);
 }
+a.sb.youtube:hover {
+	background-image: url(../img/youtubew.png);
+}
+a.sb.google {
+	background-image: url(../img/google+.png);
+}
+a.sb.google:hover {
+	background-image: url(../img/google+w.png);
+}
+a.sb.wordpress {
+	background-image: url(../img/wp.png);
+	margin-right: 0;
+}
+a.sb.wordpress:hover {
+	background-image: url(../img/wpw.png);
+	margin-right: 0;
+}
+a.sb.skype {
+	background-image: url(../img/skype.png);
+}
+a.sb.skype:hover {
+	background-image: url(../img/skypew.png);
+}
 a.sb.behance {
 	background-image: url(../img/behance.png);
 }
+a.sb.behance:hover {
+	background-image: url(../img/behancew.png);
+}
 a.sb.instagram {
 	background-image: url(../img/instagram.png);
+}
+a.sb.instagram:hover {
+	background-image: url(../img/instagramw.png);
 }
 a.sb.email {
 	background-image: url(../img/email.png);
