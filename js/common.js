@@ -50,15 +50,14 @@ $(document).ready(function() {
 	        $(tab).fadeIn(400);
 	    });
 	});
+
 	$('article').readmore({
 		speed: 250,
-		maxHeight: 30,
+		maxHeight: 55,
 		heightMargin: 10,
-		moreLink: '<a href="#">Read more...</a>' ,
-		lessLink: '<a href="#">Close</a>'
+		moreLink: '<a href="#" style="color:#44c8f8;">Read more...</a>' ,
+		lessLink: '<a href="#" style="color:#44c8f8;">Close</a>',
 	});
-
-
 	//Прогресс бар
 	/*
 	var bar = new ProgressBar.Circle(container, {

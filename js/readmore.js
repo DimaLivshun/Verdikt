@@ -11,11 +11,11 @@
       defaults = {
         speed: 100,
         maxHeight: 200,
-        heightMargin: 16,
+        heightMargin: 10,
         moreLink: '<a href="#">Read More</a>',
         lessLink: '<a href="#">Close</a>',
         embedCSS: true,
-        sectionCSS: 'width: 100%;',
+        sectionCSS: 'display: block; width: 100%;',
         startOpen: false,
         expandedClass: 'readmore-js-expanded',
         collapsedClass: 'readmore-js-collapsed',
