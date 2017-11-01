@@ -111,15 +111,20 @@ body {
 	line-height: 1;
 	padding: 0;
 }
-.info p{
+.title-progress-top{
+	display: inline-block;
+}
+.info .title-progress-top p{
 	font-size:36px;
 	font-family: "MontserratRegular";
 	text-align: left;
 	margin-bottom: 15px;
+	margin-right: 50px;
 	color:#000;
 	white-space: pre-line; 
 	font-weight: bold;
 	line-height: 1.1;
+	float: left;
 }
 .info .for{
 	font-style: italic;
@@ -247,12 +252,14 @@ body {
 	float: left;
 	margin-right: 20px;
 }
-.news .first-news p{
+.news .first-news .title-progress-top p{
 	font-family: "MontserratRegular";
 	font-size: 25px;
 	font-weight: bold;
 	color:#000;
 	white-space: pre-line;
+	float: left;
+	margin-right: 22px;
 }
 .main-content .news .first-news .info_footer{
 	margin-top: 48px;
@@ -323,12 +330,14 @@ body {
 	display: inline;
 	margin-right: 5px;
 }
-.news .second-news p{
+.news .second-news .title-progress-top p{
 	font-family: "MontserratRegular";
 	font-size: 25px;
 	font-weight: bold;
 	color:#000;
 	white-space: pre-line;
+	float: left;
+	margin-right: 22px;
 }
 .main-content .news .second-news .info_footer{
 	margin-top: 48px;
@@ -380,12 +389,14 @@ body {
 	display: inline;
 	margin-right: 5px;
 }
-.news .third-news p{
+.news .third-news .title-progress-top p{
 	font-family: "MontserratRegular";
 	font-size: 25px;
 	font-weight: bold;
 	color:#000;
 	white-space: pre-line;
+	float: left;
+	margin-right: 35px;
 }
 .main-content .news .third-news .info_footer{
 	margin-top: 48px;
@@ -435,7 +446,7 @@ body {
 }
 
 .opinion .tabs_box {
-    max-width: 410px;
+    max-width: 412px;
     background: #fff;
     position: relative;
     margin-left: -178px;
@@ -478,7 +489,7 @@ body {
 .opinion .tabs_box img{
 	float: left;
 }
-.opinion .tabs_box .first-opinion p {
+.opinion .tabs_box  .first-opinion .title-progress-top p {
 	font-size: 18px;
 	font-family: "MontserratRegular";
 	font-weight: bold;
@@ -486,6 +497,8 @@ body {
 	margin-bottom: 7px;
 	white-space: pre-line;
 	font-style: normal;
+	float: left;
+	margin-right: 4px
 }
 
 .opinion .first-opinion{
@@ -567,7 +580,7 @@ body {
 	font-style: normal;
 }
 .opinion .tabs_box img{
-	margin-right: 20px;
+	margin-right: 18px;
 }
 
 
@@ -583,7 +596,7 @@ body {
 #tab2{
     display: none;
 }
-.opinion .tabs_box .second-opinion p {
+.opinion .tabs_box .second-opinion .title-progress-top  p {
 	font-size: 18px;
 	font-family: "MontserratRegular";
 	font-weight: bold;
@@ -591,6 +604,8 @@ body {
 	margin-bottom: 7px;
 	white-space: pre-line;
 	font-style: normal;
+	float: left;
+    margin-right: 4px;
 }
 
 .opinion .second-opinion{
@@ -646,7 +661,7 @@ body {
 .main-content .opinion .second-opinion .info_footer img{
 	margin-right: 8px;
 }
-.opinion .tabs_box .third-opinion p {
+.opinion .tabs_box .third-opinion .title-progress-top p {
 	font-size: 18px;
 	font-family: "MontserratRegular";
 	font-weight: bold;
@@ -654,6 +669,8 @@ body {
 	margin-bottom: 7px;
 	white-space: pre-line;
 	font-style: normal;
+	float: left;
+    margin-right: 4px;
 }
 
 .opinion .third-opinion{
@@ -719,11 +736,10 @@ body {
 }
 .social{
 	border-top: 2px solid #e5e5e5;
-	border-bottom: : 2px solid #e5e5e5;
 	padding: 0;
 	margin-top: 25px;
 	float:left;
-	max-width: 410px;
+	max-width: 412px;
 	margin-left: 20px;
 }
 .social-icon{
@@ -782,13 +798,14 @@ body {
 .pre-footer .resent-verdikt {
 	margin-top: 15px;
 }
-.pre-footer .resent-verdikt p{
+.pre-footer .resent-verdikt .title-progress-top p{
 	font-family: "MontserratRegular";
 	font-size: 25px;
 	font-weight: bold;
 	color:#000;
-	margin-top: 25px;
 	white-space: pre-line;
+	float: left;
+	margin-right: 22px;
 }
 .pre-footer .tabs_box-two .by p{
 	color:#d2d2d2;
@@ -933,7 +950,7 @@ body {
 	border-top: 2px solid #e5e5e5;
     padding: 0;
     float: left;
-    max-width: 410px;
+    max-width: 412px;
     margin-left: 20px;
 }
 .advertisement .title{
@@ -946,7 +963,7 @@ body {
 .advertisement .image-block{
 	background-color: #f2f2f2;
 	max-width: 410px;
-	height: 410px;
+	height: 412px;
 	margin-top: 40px;
 }
 .second-pre-footer .next-news{
@@ -967,13 +984,14 @@ body {
 	float:left;
 	margin-right: 10px;
 }
-.second-pre-footer .left-news p{
+.second-pre-footer .left-news .title-progress-top p{
 	font-family: "MontserratRegular";
 	font-size: 25px;
 	font-weight: bold;
 	color:#000;
-	margin-top: 25px;
 	white-space: pre-line;
+	float: left;
+	margin-right: 22px;
 }
 .second-pre-footer .left-news .info_footer span{
 	font-size:10px;
@@ -1005,13 +1023,14 @@ body {
 	float:left;
 	margin-left: 10px;
 }
-.second-pre-footer .right-news p{
+.second-pre-footer .right-news .title-progress-top p{
 	font-family: "MontserratRegular";
 	font-size: 25px;
 	font-weight: bold;
 	color:#000;
-	margin-top: 25px;
 	white-space: pre-line;
+	float: left;
+	margin-right: 22px;
 }
 .second-pre-footer .right-news .info_footer span{
 	font-size:10px;
@@ -1055,7 +1074,7 @@ body {
 	border-top: 2px solid #e5e5e5;
     padding: 0;
     margin-top: 55px;
-    max-width: 410px;
+    max-width: 412px;
     margin-left: 20px;
 }
 .second-pre-footer .facebook-feed .title {
@@ -1194,9 +1213,11 @@ body {
 	font-size: 12px;
 	margin-bottom: 10px;
 }
+.footer .block-logo .followus a{
+	margin-right: 15px;
+}
 .footer .block-logo .followus img{
 	display: inline-block;
-	margin-right: 20px;
 }
 .footer .footer-menu{
 	margin-top: 10px;
@@ -1208,6 +1229,7 @@ body {
 	display: block;
 	text-decoration: none;
 	margin-left: 115px;
+	margin-top: 5px;
 }
 .footer .footer-menu #head{
 	font-family: "MontserratRegular";
