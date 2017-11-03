@@ -15,19 +15,15 @@ $(document).ready(function() {
 		});
 	});
 
-	//Карусель
-	//Документация: http://owlgraphic.com/owlcarousel/
-	/*var owl = $(".carousel");
-	owl.owlCarousel({
-		items : 4
-	});*/
-	$(".picture").owlCarousel({
-		loop:true,
-		items: 1,
-		smartSpeed: 700,
-		nav: false,
-		
-	});
+	//slick слайдер
+	$('.multiple-items').slick({
+		infinite: false,
+		dots: true,
+		slidesToShow: 1,
+		initialSlide: 1,
+    	аccessibility: false,
+    	variableWidth: true
+  	});
 
 	//Переключатель между блоками
 	$(document).ready(function(){
@@ -58,53 +54,9 @@ $(document).ready(function() {
 		moreLink: '<a href="#" style="color:#44c8f8;">Read more...</a>' ,
 		lessLink: '<a href="#" style="color:#44c8f8;">Close</a>',
 	});
-	//Прогресс бар
-	/*
-	var bar = new ProgressBar.Circle(container, {
-  color: '#aaa',
-  // This has to be the same size as the maximum width to
-  // prevent clipping
-  strokeWidth: 4,
-  trailWidth: 0,
-  easing: 'easeInOut',
-  duration: 1400,
-  text: {
-    autoStyleContainer: false
-  },
-  from: { color: '#34bdff', width: 6 },
-  to: { color: '#34bdff', width: 6 },
-  // Set default step function for all animate calls
-  step: function(state, circle) {
-    circle.path.setAttribute('stroke', state.color);
-    circle.path.setAttribute('stroke-width', state.width);
+	
+	
 
-    var value = Math.round(circle.value() * 100) + "%";
-    if (value === 0) {
-      circle.setText('');
-    } else {
-      circle.setText(value);
-    }
-
-  }
-});
-bar.text.style.fontFamily = '"MontserratRegular", Helvetica, sans-serif';
-bar.text.style.fontSize = '11px';
-bar.animate(1.0);  // Number from 0.0 to 1.0
-
-	owl.on("mousewheel", ".owl-wrapper", function (e) {
-		if (e.deltaY > 0) {
-			owl.trigger("owl.prev");
-		} else {
-			owl.trigger("owl.next");
-		}
-		e.preventDefault();
-	});
-	$(".next_button").click(function(){
-		owl.trigger("owl.next");
-	});
-	$(".prev_button").click(function(){
-		owl.trigger("owl.prev");
-	});*/
 	
 	//Аякс отправка форм
 	//Документация: http://api.jquery.com/jquery.ajax/
@@ -121,5 +73,43 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 		});
 		return false;
 	});
+
+
+
+	//кнопка  Readmore
+	// Configure/customize these variables.
+    var showChar = 100;  // How many characters are shown by default
+    var ellipsestext = "...";
+    var moretext = "Read more...";
+    var lesstext = "Show less";
+    
+
+    $('.more').each(function() {
+        var content = $(this).html();
+ 
+        if(content.length > showChar) {
+ 
+            var c = content.substr(0, showChar);
+            var h = content.substr(showChar, content.length - showChar);
+ 
+            var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+ 
+            $(this).html(html);
+        }
+ 
+    });
+ 
+    $(".morelink").click(function(){
+        if($(this).hasClass("less")) {
+            $(this).removeClass("less");
+            $(this).html(moretext);
+        } else {
+            $(this).addClass("less");
+            $(this).html(lesstext);
+        }
+        $(this).parent().prev().toggle();
+        $(this).prev().toggle();
+        return false;
+    });
 
 });
