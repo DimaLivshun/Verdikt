@@ -4,7 +4,7 @@
     height: 49px;
     line-height: 150px;
     background: none;
-    margin-top: 50px;
+    margin-top: 25px;
     box-shadow: none;
     position: relative;
 }
@@ -90,8 +90,8 @@
 
 /*---------.main-content .news prgrossbar------------*/
 .main-content  .progress{
-    width: 43px;
-    height: 43px;
+    width: 42px;
+    height: 42px;
     line-height: 150px;
     background: none;
     margin-top: 10px;
@@ -99,8 +99,8 @@
     position: relative;
 }
 .main-content .second-news .progress{
-    width: 43px;
-    height: 43px;
+    width: 42px;
+    height: 42px;
     line-height: 150px;
     background: none;
     margin-top: 10px;
@@ -126,8 +126,26 @@
     z-index: 1;
 }
 .main-content  .progress .progress-top{
-    left: 11.5px;
+    left: 9.5px;
     top: -10px;
+    transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+.main-content .third-news  .progress .progress-top{
+    left: 10.5px;
+    top: -9px;
+    transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+.main-content  .third-news .progress .progress-bottom{
+    right: 11px;
+    top: 11px;
     transform: rotate(90deg);
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
@@ -176,7 +194,7 @@
     background: #fff;
     font-size: 10.33px;
     color: #000;
-    line-height: 38px;
+    line-height: 41px;
     text-align: center;
     position: absolute;
     top: 5%;
@@ -193,8 +211,8 @@
 
 /*---------.main-content .opinion prgrossbar------------*/
 .main-content .opinion  .progress{
-    width: 39px;
-    height: 39px;
+    width: 38px;
+    height: 38px;
     line-height: 150px;
     background: none;
     margin-top: 10px;
@@ -221,8 +239,8 @@
     z-index: 1;
 }
 .main-content .opinion .progress .progress-top{
-    left: 10.5px;
-    top: -10px;
+    left: 9.5px;
+    top: -9px;
     transform: rotate(90deg);
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
@@ -269,7 +287,7 @@
     height: 90%;
     border-radius: 50%;
     background: #fff;
-    font-size: 10px;
+    font-size: 9px;
     color: #000;
     line-height: 35px;
     text-align: center;
@@ -291,8 +309,8 @@
     margin-top: 25px;
 }
 .pre-footer .progress{
-    width: 43px;
-    height: 43px;
+    width: 42px;
+    height: 42px;
     line-height: 150px;
     background: none;
     margin-top: 10px;
@@ -319,8 +337,8 @@
     z-index: 1;
 }
 .pre-footer .progress .progress-top{
-    left: 11.5px;
-    top: -11px;
+    left: 10.5px;
+    top: -10px;
     transform: rotate(90deg);
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
@@ -345,7 +363,7 @@
     transform-origin: center left;
 }
 .pre-footer .progress .progress-bottom{
-    right: 11px;
+    right: 10px;
     top: 10px;
     transform: rotate(90deg);
     -o-transform: rotate(90deg);

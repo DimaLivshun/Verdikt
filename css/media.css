@@ -11,7 +11,7 @@
 	display: none;
 	position: absolute;
 	width:50%;
-	left:130px;
+	left:30px;
 }
 .peoples ul{
 	margin-top: 100px;
@@ -47,17 +47,64 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-
+.all-content{
+	margin-right: 15px;
+  margin-left: 15px;
+}
+.top_header{
+	padding-left: 15px;
+}
+.title-progress-top{
+	width: 100%;
+}
+.top-content .title-progress-top{
+	width: auto;
+}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
-
+.all-content{
+	padding-right: 15px;
+  	padding-left: 15px;
+}
+.top_header{
+	padding-left: 15px;
+}
+.title-progress-top{
+	width: 100%;
+}
+.top-content .title-progress-top{
+	width: auto;
+}
+.news .first-news img {
+    width: 100%;
+}
+.news .second-news img {
+    width: 100%;
+}
+.news .third-news img {
+    width: 100%;
+}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
+.title-progress-top{
+	width: 100%;
+}
+.top-content .title-progress-top{
+	width: auto;
+}
+.news .first-news img {
+    width: auto;
+}
+.news .second-news img {
+    width: auto;
+}
+.news .third-news img {
+    width: auto;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -65,9 +112,37 @@
 .my_menu ul{
 	display: block!important;
 }
+body{
+	padding:0;
+	margin: 0;
+}
+.all-content{
+	padding:0;
+	margin: 0;
+}
+.top_header{
+	padding: 0;
+}
+.title-progress-top{
+	width: 100%;
+}
+.top-content .title-progress-top{
+	width: auto;
+}
+.news .first-news img {
+    width: auto;
+}
+.news .second-news img {
+    width: auto;
+}
+.news .third-news img {
+    width: auto;
+}
 }
 
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-
+.title-progress-top{
+	width: auto;
+}
 }
