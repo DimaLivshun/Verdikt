@@ -22,6 +22,9 @@
 .my_menu a{
 	margin: 5px;
 }
+.advertisement{
+	margin-top: 50px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -77,15 +80,6 @@
 .top-content .title-progress-top{
 	width: auto;
 }
-.news .first-news img {
-    width: 100%;
-}
-.news .second-news img {
-    width: 100%;
-}
-.news .third-news img {
-    width: 100%;
-}
 }
 
 /* Small Devices, Tablets */
@@ -138,11 +132,15 @@ body{
 .news .third-news img {
     width: auto;
 }
+
 }
 
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 .title-progress-top{
 	width: auto;
+}
+.advertisement{
+	margin-top: 0;
 }
 }
