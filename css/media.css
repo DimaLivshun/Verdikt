@@ -58,7 +58,7 @@ body{
 .opinion {
     width: 100%;
     max-width: 100%;
-    margin-left: 0;
+    margin-left: -29px;
 }
 .opinion .tabs_box {
     width: 100%;
