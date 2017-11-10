@@ -37,12 +37,78 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+html{
+    overflow-x: hidden;
+}
+body{
+    overflow-x: hidden;
+}
+.slide-picture img {
+    height: auto;
+     margin-left: 0;
+}
+.news  img {
+    float: left;
+    margin-right: 0;
+    width: 100%;
+}
+.main-content .news  .info_footer img {
+    width: 16px;
+}
+.opinion {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+}
+.opinion .tabs_box {
+    width: 100%;
+    max-width: 100%;
+}
+.pre-footer .footer-opinion {
+     margin-left: 0;
+}
+.social {
+    width: 100%;
+    margin-left: 0;
+}
+.advertisement {
+    width: 100%;
+    margin-left: 0;
+}
+.advertisement {
+    width: 100%;
+    margin-left: 0;
+}
+.second-pre-footer .next-news .left-news img{
+    width: 100%;
+}
+.second-pre-footer .next-news .right-news img{
+    width: 100%;
+}
+.second-pre-footer .right-news {
+    margin-left: 0;
+}
+.second-pre-footer .left-news {
+    margin-right: 0;
+}
+.second-pre-footer .next-news  .info_footer img {
+    width: 16px;
+}
+.second-pre-footer .facebook-feed {
+    max-width: 412px;
+    margin-left: 0;
+}
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+.all-content{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.opinion {
+    margin-left: 27px;
+}
 }
 
 
@@ -51,8 +117,8 @@
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
 .all-content{
-	margin-right: 15px;
-  margin-left: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 .top_header{
 	padding-left: 15px;
